@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="src/output.css" />
+    <link rel="stylesheet" href="src/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="bg-[#040b0f] border-b-2 border-[#01ffe1]">
+      <nav
+        class="container py-4 px-6 lg:px-0 flex items-center justify-between font"
+      >
+        <div>
+          <h4
+            class="uppercase font-bold text-[26px] text-[#01ffe1] [text-shadow:0_0_20px_#01ffe1,0_0_60px_rgba(0,255,225,0.3)]"
+          >
+            Game <span class="text-[#ff2f79]">Site</span>
+          </h4>
+        </div>
+        <div>
+          <button
+            class="text-[#01ffe1] uppercase border-2 py-2 px-5 hover:bg-[#01ffe1] hover:text-black duration-300"
+          >
+            <i class="fa-solid fa-cart-shopping"></i>
+            <span class="ml-1">Basket</span>
+          </button>
+        </div>
+      </nav>
+    </header>
+    <main class="bg-[#040b0f] py-12 px-6 lg:px-0 font">
+      <div
+        id="game"
+        class="container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5"
+      ></div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.js"></script>
+    <script src="src/js/data.js"></script>
+    <script src="src/js/script.js"></script>
+  </body>
+</html>
