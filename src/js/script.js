@@ -2,7 +2,7 @@ let game = document.getElementById("game");
 
 game.innerHTML += data
   .map((item) => {
-    return `<div class="relative border border-[#01ffe1] bg-[#0c1621]">
+    return `<div data-aos="zoom-in-down" class="relative border border-[#01ffe1] bg-[#0c1621]">
           <img
             class="w-full h-[180px] object-cover"
             src="${item.img}"
